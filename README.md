@@ -1,10 +1,16 @@
 # BT05-SpringBoot4
-# BaiTap Spring boot 
-Họ Tên: Thái Nhựt Huy
-MSSV: 24110227
-Môn Lập Trình Web
-Ngày cập nhật cuối: 09/09/2026
-Nội dung cập nhật: Hoàn thiện chức năng CRUD trong role admin bằng Spring boot 4 với JSP/JSTL cho bảng Category, bảng User, có chức năng tìm kiếm
+
+# Bài Tập Spring Boot
+
+**Họ tên:** Thái Nhựt Huy  
+**MSSV:** 24110227  
+**Môn:** Lập Trình Web  
+**Ngày cập nhật cuối:** 09/09/2026  
+
+**Nội dung cập nhật:**  
+Hoàn thiện chức năng CRUD trong role admin bằng Spring Boot 4 với JSP/JSTL cho bảng Category và bảng User, có chức năng tìm kiếm.
+
+---
 
 # Spring Boot 4 Admin CRUD
 
@@ -38,6 +44,7 @@ Nội dung cập nhật: Hoàn thiện chức năng CRUD trong role admin bằng
 Database: `jakartaJPA`
 
 Các bảng sử dụng:
+
 - `categories`
 - `User`
 
@@ -45,12 +52,12 @@ Các bảng sử dụng:
 
 1. Cấu hình SQL Server trong:
 
-`src/main/resources/application.properties`
+   `src/main/resources/application.properties`
 
-2. Chạy:
+2. Chạy class:
 
-`SpringBoot4AdminCrudApplication`
+   `SpringBoot4AdminCrudApplication`
 
 3. Truy cập:
 
-`http://localhost:8080/admin`
+   `http://localhost:8080/admin`
